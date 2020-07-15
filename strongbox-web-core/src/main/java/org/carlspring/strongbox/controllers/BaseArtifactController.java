@@ -55,7 +55,8 @@ public abstract class BaseArtifactController
 
         return true;
     }
-    public ResponseEntity<String> checkRepositoryAccess(){
+    public ResponseEntity<String> checkRepositoryAccess()
+    {
 	
 	    return new ResponseEntity<>("success", HttpStatus.OK);
     }
